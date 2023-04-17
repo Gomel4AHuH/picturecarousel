@@ -4,25 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'>
-    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Picture carousel</title>
 </head>
 <body>
-    <div class='container'>
-        <div class='image fade'>
-            <img src="img/Iron Man.jpg" alt="1">
+    <div class="container">
+        <H1>Marvel phase 1</H1>
+        <div class="image fade">
+            <img src="img/1.jpg" alt="1" width="100%">
         </div>
-        <div class='image fade'>
-            <img src="img/The incredible Hulk.jpg" alt="2">
+        <div class="image fade">
+            <img src="img/2.jpg" alt="2" width="100%">
         </div>
-        <i id='next' onclick='showImage(1)' class="fa-regular fa-circle-arrow-right"></i>
-        <i id='prev' onclick='showImage(-1)' class="fa-regular fa-circle-arrow-left"></i>
-        <div class='dots'>
+        <div class="image fade">
+            <img src="img/3.jpg" alt="3" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/4.jpg" alt="4" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/5.jpg" alt="5" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/6.jpg" alt="6" width="100%">
+        </div>
+        <i id="next" onclick="showImage(1)" class="fa-regular fa-circle-arrow-right"></i>
+        <i id="prev" onclick="showImage(-1)" class="fa-regular fa-circle-arrow-left"></i>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
             <span class="dot"></span>
             <span class="dot"></span>
         </div>
     </div>
-    <script src='script.js'></script>
+    <script src="script.js"></script>
 </body>
 </html>
